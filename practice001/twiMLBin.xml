@@ -1,0 +1,13 @@
+<Response>
+    <!-- Todo: Replace following phone number to your Twilio number -->
+    <Dial callerId="+8150XXXXXXXX">
+      <!-- Todo: Replace following URL to match your server's domain name -->
+        <Number
+statusCallbackEvent="initiated ringing answered completed"
+statusCallback="http://twilio:twilio@XXXXXXXXXX.secure.ne.jp/statusCallback.php"
+statusCallbackMethod="POST">
+      <!-- Todo: Replace following phone number to your cell phone number -->
+            +8190XXXXXXXXX
+        </Number>
+    </Dial>
+</Response>
